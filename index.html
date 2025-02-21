@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hamburguesería Quijote</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="images/logo.webp" type="image/webp">
 </head>
 <body>
-    <h1>Hola mundo</h1>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.webp" alt="Logo Hamburguesería Quijote" style="height: 70px;">
+                <span style="margin-left: 20px;">Hamburguesería Quijote</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menú</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reserva</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Bienvenidos a Hamburguesería Quijote</h1>
+                <p>Disfruta de las mejores hamburguesas de carne madurada de Dos Hermanas.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container bg-light text-center py-3 mt-5">
+        <p>&copy; 2025 Hamburguesería Quijote. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
