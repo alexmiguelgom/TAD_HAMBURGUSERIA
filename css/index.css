@@ -15,7 +15,32 @@ body {
     background-color: #f8f9fa; /* Fondo claro */
 }
 h2, h3 {
-    color: #343a40; /* Color de los títulos */
+    color: #000000; /* Color de los títulos */
+    text-align: center; /* Centrar los títulos */
+    font-family: 'Arial', sans-serif; /* Fuente para los títulos */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+h2 {
+    font-size: 2.5em; /* Tamaño de fuente para h2 */
+    font-weight: bold; /* Negrita para h2 */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    border-bottom: 3px solid #d9534f; /* Línea inferior */
+    display: inline-block; /* Ajustar línea inferior al tamaño del texto */
+    padding-bottom: 10px; /* Espacio inferior */
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+h3 {
+    font-size: 2em; /* Tamaño de fuente para h3 */
+    font-weight: bold; /* Negrita para h3 */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    color: #d9534f; /* Color para h3 */
+    background-color: #f8f9fa; /* Fondo claro */
+    padding: 10px 20px; /* Espacio alrededor del texto */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
 }
 .card {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
@@ -33,6 +58,35 @@ h2, h3 {
     color: #d9534f; /* Color del precio */
 }
 footer {
-    background-color: #343a40; /* Fondo oscuro para el pie de página */
+    background-color: #000000; /* Fondo oscuro para el pie de página */
     color: #ffffff; /* Texto blanco */
+    padding: 20px 0; /* Espacio alrededor del texto */
+}
+footer .list-inline-item a {
+    color: #ffffff; /* Color de los enlaces en el pie de página */
+    text-decoration: none; /* Sin subrayado */
+}
+footer .list-inline-item a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+.navbar, .navbar-dark, .navbar-toggler, .navbar-collapse {
+    background-color: #000000; /* Fondo oscuro para la barra de navegación, el botón de toggler y el colapso de la barra de navegación */
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+.navbar-title {
+    color: #ffffff; /* Color del texto del título */
+    font-size: 1.5em; /* Tamaño de fuente del título */
+    font-weight: bold; /* Negrita para el título */
+}
+.navbar-nav .nav-link {
+    color: #ffffff; /* Color de los enlaces de navegación */
+}
+.navbar-nav .nav-link:hover {
+    color: #d9534f; /* Color de los enlaces al pasar el ratón */
 }
