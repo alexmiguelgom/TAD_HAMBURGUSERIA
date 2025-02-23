@@ -8,3 +8,31 @@
     border-radius: 5px;
     display: inline-block; /* Ajusta el fondo al tamaño del contenido */
 }
+.carousel-caption h5 {
+    color: #fff; /* Color del texto */
+}
+body {
+    background-color: #f8f9fa; /* Fondo claro */
+}
+h2, h3 {
+    color: #343a40; /* Color de los títulos */
+}
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+    transition: transform 0.2s; /* Transición suave para el hover */
+}
+.card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
+}
+.price {
+    display: none; /* Ocultar el precio por defecto */
+}
+.card:hover .price {
+    display: block; /* Mostrar el precio al pasar el ratón */
+    font-weight: bold;
+    color: #d9534f; /* Color del precio */
+}
+footer {
+    background-color: #343a40; /* Fondo oscuro para el pie de página */
+    color: #ffffff; /* Texto blanco */
+}
