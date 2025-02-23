@@ -75,6 +75,7 @@ footer .list-inline-item a:hover {
 .navbar-brand {
     display: flex;
     align-items: center;
+    flex-grow: 1; /* Permitir que el logo y el título ocupen el espacio disponible */
 }
 .navbar-brand img {
     margin-right: 10px; /* Espacio entre el logo y el texto */
@@ -83,6 +84,10 @@ footer .list-inline-item a:hover {
     color: #ffffff; /* Color del texto del título */
     font-size: 1.5em; /* Tamaño de fuente del título */
     font-weight: bold; /* Negrita para el título */
+    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+}
+.navbar-nav {
+    flex-grow: 0; /* Evitar que los enlaces de navegación ocupen el espacio disponible */
 }
 .navbar-nav .nav-link {
     color: #ffffff; /* Color de los enlaces de navegación */
