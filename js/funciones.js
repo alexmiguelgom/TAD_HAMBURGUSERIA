@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const closingTime = new Date();
     
     openingTime.setHours(12, 0, 0, 0); // 12:00 PM
-    closingTime.setHours(22, 30, 0, 0); // 10:30 PM (30 minutes before closing)
+    closingTime.setHours(22, 30, 0, 0); // 10:30 PM (30 minutos antes de cerrar)
 
     // Set the minimum date and time to now
     fechaInput.min = now.toISOString().slice(0, 16);
