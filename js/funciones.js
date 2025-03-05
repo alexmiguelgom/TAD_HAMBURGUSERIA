@@ -21,16 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
             fechaInput.value = '';
         }
     });
+
+    const confirmButton = document.querySelector('button[data-bs-target="#confirmModal"]');
+    confirmButton.addEventListener('click', function () {
+        document.getElementById('confirmNombre').textContent = document.getElementById('nombre').value;
+        document.getElementById('confirmEmail').textContent = document.getElementById('email').value;
+        document.getElementById('confirmTelefono').textContent = document.getElementById('telefono').value;
+        document.getElementById('confirmFecha').textContent = document.getElementById('fecha').value;
+        document.getElementById('confirmPersonas').textContent = document.getElementById('personas').value;
+    });
 });
 
-function initMap() {
-    var location = {lat: 37.3555, lng: -5.9322};
-    var map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 15,
-        center: location
-    });
-    var marker = new google.maps.Marker({
-        position: location,
-        map: map
-    });
-}
+
+

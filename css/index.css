@@ -1,11 +1,11 @@
 .carousel-inner img {
-    max-height: 650px; 
+    max-height: 40.625em; /* 650px */
     object-fit: cover;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
-    padding: 10px;
-    border-radius: 5px;
+    padding: 0.625em; /* 10px */
+    border-radius: 0.3125em; /* 5px */
     display: inline-block; /* Ajusta el fondo al tamaño del contenido */
 }
 .carousel-caption h5 {
@@ -18,32 +18,32 @@ h2, h3 {
     color: #000000; /* Color de los títulos */
     text-align: center; /* Centrar los títulos */
     font-family: 'Arial', sans-serif; /* Fuente para los títulos */
-    margin-bottom: 20px; /* Espacio inferior */
+    margin-bottom: 1.25em; /* 20px */
 }
 h2 {
-    font-size: 2.5em; /* Tamaño de fuente para h2 */
+    font-size: 2.5em; /* 2.5em */
     font-weight: bold; /* Negrita para h2 */
     text-transform: uppercase; /* Texto en mayúsculas */
-    border-bottom: 3px solid #d9534f; /* Línea inferior */
+    border-bottom: 0.1875em solid #d9534f; /* 3px */
     display: inline-block; /* Ajustar línea inferior al tamaño del texto */
-    padding-bottom: 10px; /* Espacio inferior */
+    padding-bottom: 0.625em; /* 10px */
     background-color: #f8f9fa; /* Fondo claro */
-    padding: 10px 20px; /* Espacio alrededor del texto */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 0.625em 1.25em; /* 10px 20px */
+    border-radius: 0.625em; /* 10px */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
 }
 h3 {
-    font-size: 2em; /* Tamaño de fuente para h3 */
+    font-size: 2em; /* 2em */
     font-weight: bold; /* Negrita para h3 */
     text-transform: uppercase; /* Texto en mayúsculas */
     color: #d9534f; /* Color para h3 */
     background-color: #f8f9fa; /* Fondo claro */
-    padding: 10px 20px; /* Espacio alrededor del texto */
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 0.625em 1.25em; /* 10px 20px */
+    border-radius: 0.625em; /* 10px */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
 }
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para las tarjetas */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
     transition: transform 0.2s; /* Transición suave para el hover */
 }
 .card:hover {
@@ -60,7 +60,7 @@ h3 {
 footer {
     background-color: #000000 !important; /* Fondo oscuro para el pie de página */
     color: #ffffff; /* Texto blanco */
-    padding: 20px 0; /* Espacio alrededor del texto */
+    padding: 1.25em 0; /* 20px 0 */
 }
 footer .list-inline-item a {
     color: #ffffff; /* Color de los enlaces en el pie de página */
@@ -80,7 +80,7 @@ footer .list-inline-item a:hover {
     white-space: nowrap; /* Evitar que el título se divida en varias líneas */
 }
 .navbar-brand img {
-    margin-right: 10px; /* Espacio entre el logo y el texto */
+    margin-right: 0.625em; /* 10px */
 }
 .navbar-title {
     color: #ffffff; /* Color del texto del título */
@@ -103,7 +103,7 @@ header.container-fluid {
 header {
     background-color: #000000 !important; /* Negro puro */
 }
-@media (max-width: 576px) { 
+@media (max-width: 36em) { /* 576px */
     .navbar-title {
         display: block;
         text-align: center; /* Centrar el texto */
