@@ -1,4 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
+
+
     const fechaInput = document.getElementById('fecha');
     const now = new Date();
     const openingTime = new Date();
@@ -22,13 +24,23 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    const confirmButton = document.querySelector('button[data-bs-target="#confirmModal"]');
-    confirmButton.addEventListener('click', function () {
-        document.getElementById('confirmNombre').textContent = document.getElementById('nombre').value;
-        document.getElementById('confirmEmail').textContent = document.getElementById('email').value;
-        document.getElementById('confirmTelefono').textContent = document.getElementById('telefono').value;
-        document.getElementById('confirmFecha').textContent = document.getElementById('fecha').value;
-        document.getElementById('confirmPersonas').textContent = document.getElementById('personas').value;
+    const reservarButton = document.querySelector('button[data-bs-target="#confirmModal"]');
+    
+    reservarButton.addEventListener('click', function() {
+        const nombre = document.getElementById('nombre').value;
+        const email = document.getElementById('email').value;
+        const telefono = document.getElementById('telefono').value;
+        const fecha = document.getElementById('fecha').value;
+        const personas = document.getElementById('personas').value;
+        const preferencia = document.getElementById('preferencia').value;
+        
+
+        document.getElementById('confirmNombre').textContent = nombre;
+        document.getElementById('confirmEmail').textContent = email;
+        document.getElementById('confirmTelefono').textContent = telefono;
+        document.getElementById('confirmFecha').textContent = fecha;
+        document.getElementById('confirmPersonas').textContent = personas;
+        document.getElementById('confirmPreferencia').textContent = preferencia;
     });
 });
 

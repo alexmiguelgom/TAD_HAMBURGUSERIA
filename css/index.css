@@ -1,116 +1,117 @@
 .carousel-inner img {
-    max-height: 40.625em; /* 650px */
+    max-height: 50em; 
     object-fit: cover;
 }
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); /* Fondo negro semi-transparente */
-    padding: 0.625em; /* 10px */
-    border-radius: 0.3125em; /* 5px */
-    display: inline-block; /* Ajusta el fondo al tamaño del contenido */
+    padding: 0.6em;
+    border-radius: 0.3em;
+    display: inline-block; 
 }
 .carousel-caption h5 {
-    color: #fff; /* Color del texto */
+    color: #fff;
 }
 body {
     background-color: #f8f9fa; /* Fondo claro */
 }
 h2, h3 {
     color: #000000; /* Color de los títulos */
-    text-align: center; /* Centrar los títulos */
-    font-family: 'Arial', sans-serif; /* Fuente para los títulos */
-    margin-bottom: 1.25em; /* 20px */
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 1.25em; 
 }
 h2 {
-    font-size: 2.5em; /* 2.5em */
-    font-weight: bold; /* Negrita para h2 */
-    text-transform: uppercase; /* Texto en mayúsculas */
-    border-bottom: 0.1875em solid #d9534f; /* 3px */
-    display: inline-block; /* Ajustar línea inferior al tamaño del texto */
-    padding-bottom: 0.625em; /* 10px */
-    background-color: #f8f9fa; /* Fondo claro */
-    padding: 0.625em 1.25em; /* 10px 20px */
-    border-radius: 0.625em; /* 10px */
-    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+    font-size: 2.5em;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    border-bottom: 0.18em solid #d9534f; 
+    display: inline-block; 
+    padding-bottom: 0.6em;
+    background-color: #f8f9fa; 
+    padding: 0.625em 1.25em;
+    border-radius: 0.625em; 
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
 }
 h3 {
-    font-size: 2em; /* 2em */
-    font-weight: bold; /* Negrita para h3 */
-    text-transform: uppercase; /* Texto en mayúsculas */
-    color: #d9534f; /* Color para h3 */
-    background-color: #f8f9fa; /* Fondo claro */
-    padding: 0.625em 1.25em; /* 10px 20px */
-    border-radius: 0.625em; /* 10px */
-    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
+    font-size: 2em; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    color: #d9534f; 
+    background-color: #f8f9fa; 
+    padding: 0.625em 1.25em; 
+    border-radius: 0.625em; 
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); 
 }
 .card {
-    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); /* 0 4px 8px */
-    transition: transform 0.2s; /* Transición suave para el hover */
+    box-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1); 
+    transition: transform 0.2s; 
 }
 .card:hover {
     transform: scale(1.05); /* Efecto de zoom al pasar el ratón */
 }
 .price {
-    display: none; /* Ocultar el precio por defecto */
+    display: none; 
 }
 .card:hover .price {
-    display: block; /* Mostrar el precio al pasar el ratón */
+    display: block; 
     font-weight: bold;
-    color: #d9534f; /* Color del precio */
+    color: #d9534f; 
 }
 footer {
-    background-color: #000000 !important; /* Fondo oscuro para el pie de página */
-    color: #ffffff; /* Texto blanco */
-    padding: 1.25em 0; /* 20px 0 */
+    background-color: #000000; 
+    color: #ffffff; 
+    padding: 1.25em 0;
 }
 footer .list-inline-item a {
-    color: #ffffff; /* Color de los enlaces en el pie de página */
-    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; 
+    text-decoration: none; 
 }
 footer .list-inline-item a:hover {
-    text-decoration: underline; /* Subrayado al pasar el ratón */
+    text-decoration: underline; 
 }
-.navbar, .navbar-dark, .navbar-toggler, .navbar-collapse {
-    background-color: transparent !important; /* Evita superposición de colores */
-}
+
 .navbar-brand {
     display: flex;
     align-items: center;
-    flex-grow: 1; /* Permitir que el logo y el título ocupen el espacio disponible */
-    overflow: hidden; /* Evitar que el título se desborde */;
-    white-space: nowrap; /* Evitar que el título se divida en varias líneas */
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap; 
 }
 .navbar-brand img {
-    margin-right: 0.625em; /* 10px */
+    margin-right: 0.6em; 
 }
 .navbar-title {
-    color: #ffffff; /* Color del texto del título */
-    font-size: 1.5em; /* Tamaño de fuente del título */
-    font-weight: bold; /* Negrita para el título */
-    white-space: nowrap; /* Evitar que el texto se divida en varias líneas */
+    color: #ffffff; 
+    font-size: 1.5em; 
+    font-weight: bold; 
+    white-space: nowrap;
 }
 .navbar-nav {
-    flex-grow: 0; /* Evitar que los enlaces de navegación ocupen el espacio disponible */
+    flex-grow: 0; 
 }
 .navbar-nav .nav-link {
-    color: #ffffff; /* Color de los enlaces de navegación */
+    color: #ffffff; 
 }
 .navbar-nav .nav-link:hover {
-    color: #d9534f; /* Color de los enlaces al pasar el ratón */
+    color: #d9534f; 
 }
-header.container-fluid {
-    background-color: #000000 !important; /* Unifica el color de fondo */
-}
+
 header {
-    background-color: #000000 !important; /* Negro puro */
+    background-color: #212529 !important; 
 }
-@media (max-width: 36em) { /* 576px */
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+@media (max-width: 576px) {
     .navbar-title {
         display: block;
-        text-align: center; /* Centrar el texto */
-        font-size: 1.2em; /* Ajustar el tamaño en pantallas pequeñas */
+        text-align: center; 
+        font-size: 1.2em; 
     }
 
     .navbar-title span {
-        display: block; /* Forzar que "Quijote" esté en una línea separada */
+        display: block; 
     }
 }
